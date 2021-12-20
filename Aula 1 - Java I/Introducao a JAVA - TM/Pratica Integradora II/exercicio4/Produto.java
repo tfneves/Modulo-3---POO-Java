@@ -7,41 +7,38 @@ public class Produto {
     private int quantidade;
     private static double valorTotal;
 
-    public String getNome(){
+    public String getNome() {
         return this.nome;
     }
 
-    public Produto setNome(String nome){
+    public Produto setNome(String nome) {
         this.nome = nome;
         return this;
     }
 
-
-    public double getPreco(){
+    public double getPreco() {
         return this.preco;
     }
 
-    public Produto setPreco(double preco){
+    public Produto setPreco(double preco) {
         this.preco = preco;
         return this;
     }
 
-
-    public int getQuantidade(){
+    public int getQuantidade() {
         return this.quantidade;
     }
 
-    public Produto setQuantidade(int quantidade){
+    public Produto setQuantidade(int quantidade) {
         this.quantidade = quantidade;
         return this;
     }
 
-
-    public static double getValorTotal(){
+    public static double getValorTotal() {
         return valorTotal;
     }
 
-    public static void setValorTotal(double valor_total){
+    public static void setValorTotal(double valor_total) {
         valorTotal += valor_total;
     }
 }
